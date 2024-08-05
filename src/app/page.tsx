@@ -22,7 +22,7 @@ export default function Home() {
                 <div className="w-full flex items-center text-center md:text-left">
                     <div className="mb-10 md:mb-0">
                         <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold">Welcome to Muth Farm Flowers 👋</h1>
-                        <p className="text-2xl mt-10">Sustainably grown, fresh cut flowers for you our your special event or business. Proudly grown in Southern New Jersey, bouquets available at local Farmers Markets.</p>
+                        <p className="text-2xl mt-10">Sustainably grown, fresh cut flowers for you or your special event or business. Proudly grown in Southern New Jersey, bouquets available at local Farmers Markets.</p>
                         <button className="btn mt-10">Learn More</button>
                     </div>
                 </div>
