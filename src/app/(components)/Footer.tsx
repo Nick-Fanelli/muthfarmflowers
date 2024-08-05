@@ -1,7 +1,7 @@
 const Footer = () => {
 
     return (
-        <footer className="bg-neutral text-neutral-content">
+        <footer className="bg-secondary text-secondary-content">
             <div className="md:flex text-center md:text-left justify-between px-10 items-center pt-10">
                 <div>
                     <h1 className="text-4xl font-bold">Muth Farm Flowers</h1>
