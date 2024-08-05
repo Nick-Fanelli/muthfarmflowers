@@ -49,7 +49,7 @@ export default function Home() {
                     <div className="">
                         <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold mb-10">What We Offer 📢</h1>
 
-                        <ul className="list-disc ml-10 text-2xl mb-5 leading-10">
+                        <ul className="list-disc ml-10 text-2xl mb-5 leading-10 text-left">
                             <li>Flower Bouquets and Arrangements</li>
                             <li>Custom Blends by Bucket</li>
                             <li>Wholesale</li>
