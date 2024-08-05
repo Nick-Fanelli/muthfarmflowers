@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
-		<html className="bg-base-100" lang="en">
+		<html className="bg-base-100 overflow-x-hidden" lang="en">
 			<body >{children}</body>
 		</html>
 	);
