@@ -21,24 +21,17 @@ const config: Config = {
   daisyui: {
     themes: [
       {
-        mytheme: {
-
+        default: {
           "primary": "#006fff",
-
-          "secondary": "#e29700",
-
+          "secondary": "#decbf5",
+          "secondary-content": "#002e00",
           "accent": "#a20000",
-
           "neutral": "#0d0d0d",
-
           "base-100": "#fffae4",
-
+          "base-content": "#002e00",
           "info": "#007dff",
-
           "success": "#99f05c",
-
           "warning": "#ffb300",
-
           "error": "#ff6575",
         },
       },

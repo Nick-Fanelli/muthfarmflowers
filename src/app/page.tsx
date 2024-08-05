@@ -33,7 +33,7 @@ export default function Home() {
 
             </section>
 
-            <section id="quote" className="w-full bg-neutral text-neutral-content text-center">
+            <section id="quote" className="w-full bg-secondary text-secondary-content text-center">
                 <h1 className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-10 md:py-28">Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
             </section>
 
