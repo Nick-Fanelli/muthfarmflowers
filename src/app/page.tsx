@@ -12,13 +12,13 @@ export default function Home() {
         <>
             <Navbar />
 
-            <section id="main" className="relative w-screen h-[80vh] bg-cover flex justify-start items-start 2xl:justify-center 2xl:items-center">
+            <section id="main" className="relative w-screen h-[80vh] flex justify-start items-start 2xl:justify-center 2xl:items-center">
                 <div className="pt-10 pl-2 2xl:p-0">
                     <h1 className="text-[10vw] 2xl:text-[7vw] font-black text-yellow-300 leading-[7vw]">Muth Farm Flowers</h1>
                     <h3 className="text-[5vw] 2xl:text-[3vw] font-bold text-right text-orange-400 font-serif italic">A Growing Tradition</h3>
                 </div>
 
-                <img src="heading.jpg" alt="" className="absolute inset-0 w-full h-full z-[-10]" />
+                <div className="absolute inset-0 w-full h-full z-[-10] bg-cover" style={{backgroundImage: "url('heading.jpg')"}} />
             </section>
 
             <section id="welcome" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">

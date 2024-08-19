@@ -56,7 +56,7 @@ export default function Home() {
                     <h3 className="text-[5vw] 2xl:text-[3vw] font-bold text-right text-orange-400 font-serif italic">A Growing Tradition</h3>
                 </div>
 
-                <img src="heading.jpg" alt="" className="absolute inset-0 w-full h-full z-[-10]" />
+                <div className="absolute inset-0 w-full h-full z-[-10] bg-cover" style={{backgroundImage: "url('heading.jpg')"}} />
             </section>
 
             <section id="welcome" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
