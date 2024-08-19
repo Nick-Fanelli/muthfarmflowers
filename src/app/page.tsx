@@ -1,18 +1,24 @@
 import Footer from "./(components)/Footer";
 import Navbar from "./(components)/Navbar";
 
+import { Dancing_Script } from "next/font/google"
+
+const dancingScript = Dancing_Script({
+    subsets: ['latin'],
+});
+
 export default function Home() {
     return (
         <>
             <Navbar />
 
-            <section id="main" className="w-screen h-[80vh] bg-cover flex justify-center items-center" style={{
-                backgroundImage: "url(heading.jpg)"
-            }}>
-                <div>
+            <section id="main" className="relative w-screen h-[80vh] bg-cover flex justify-start items-start 2xl:justify-center 2xl:items-center">
+                <div className="pt-10 pl-2 2xl:p-0">
                     <h1 className="text-[10vw] 2xl:text-[7vw] font-black text-yellow-300 leading-[7vw]">Muth Farm Flowers</h1>
-                    <h3 className="text-[5vw] 2xl:text-[3vw] text-right text-orange-400 font-serif italic">A Growing Tradition</h3>
+                    <h3 className="text-[5vw] 2xl:text-[3vw] font-bold text-right text-orange-400 font-serif italic">A Growing Tradition</h3>
                 </div>
+
+                <img src="heading.jpg" alt="" className="absolute inset-0 w-full h-full z-[-10]" />
             </section>
 
             <section id="welcome" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
@@ -21,7 +27,7 @@ export default function Home() {
 
                 <div className="w-full flex items-center text-center md:text-left">
                     <div className="mb-10 md:mb-0">
-                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold">Welcome to Muth Farm Flowers 👋</h1>
+                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold">Welcome to Muth Farm Flowers</h1>
                         <p className="text-2xl mt-10">Sustainably grown, fresh cut flowers for you or your special event or business. Proudly grown in Southern New Jersey, bouquets available at local Farmers Markets.</p>
                         <button className="btn mt-10">Learn More</button>
                     </div>
@@ -33,8 +39,9 @@ export default function Home() {
 
             </section>
 
-            <section id="quote" className="w-full bg-secondary text-secondary-content text-center">
-                <h1 className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-10 md:py-28">Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
+            <section id="quote" className="w-full text-secondary-content text-center relative">
+                <h1 className={`${dancingScript.className} text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-10 md:py-28`}>Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
+                <div className="absolute bg-secondary top-0 left-0 right-0 bottom-0 z-[-2]"></div>
             </section>
 
             <section id="choose-us" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
@@ -47,7 +54,7 @@ export default function Home() {
 
                 <div className="w-full flex items-center text-center md:text-left">
                     <div className="">
-                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold mb-10">What We Offer 📢</h1>
+                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold mb-10">What We Offer</h1>
 
                         <ul className="list-disc ml-10 text-2xl mb-5 leading-10 text-left">
                             <li>Flower Bouquets and Arrangements</li>

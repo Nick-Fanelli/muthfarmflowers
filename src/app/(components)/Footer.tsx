@@ -9,11 +9,12 @@ const Footer = () => {
                 </div>
 
                 <div className="text-center mt-5 md:mt-0 md:text-right">
-                    <p className="text-xl">856-629-2462</p>
-                    <p className="text-xl">info@muthfarmflowers.com</p>
+                    <a className="text-xl font-black hover:link" href="tel:856-629-2462">856-629-2462</a>
+                    <br />
+                    <a className="text-xl font-black hover:link" href="mailto:info@muthfarmflowers.com">info@muthfarmflowers.com</a>
                 </div>
             </div>
-            <p className="text-center pb-1 text-xl mt-5 md:mt-0"><span className="font-black">Copyright © 2024</span> Muth Farm Flowers</p>
+            <p className="text-center pb-1 text-xl mt-5 md:mt-0">Copyright © 2024 Muth Farm Flowers</p>
         </footer>
     )
 
