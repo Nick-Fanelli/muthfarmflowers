@@ -4,12 +4,10 @@ const dancingScript = Dancing_Script({
     subsets: ['latin'],
 });
 
-const salmonColor = "#ffc891";
-
 export default function Home() {
     return (
         <>
-            <div className={`navbar bg-[${salmonColor}] h-[2rem]`}>
+            <div className={`navbar bg-[#ffc891] h-[2rem]`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -56,7 +54,7 @@ export default function Home() {
                     <h3 className="text-[5vw] 2xl:text-[3vw] font-bold text-right text-orange-400 font-serif italic">A Growing Tradition</h3>
                 </div>
 
-                <div className="absolute inset-0 w-full h-full z-[-10] bg-cover" style={{backgroundImage: "url('heading.jpg')"}} />
+                <img src="heading.jpg" alt="" className="absolute inset-0 w-full h-full z-[-10]" />
             </section>
 
             <section id="welcome" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
@@ -79,7 +77,7 @@ export default function Home() {
 
             <section id="quote" className="w-full text-secondary-content text-center relative">
                 <h1 className={`${dancingScript.className} text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-10 md:py-28`}>Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
-                <div className={`absolute bg-[${salmonColor}] top-0 left-0 right-0 bottom-0 z-[-2]`}></div>
+                <div className="absolute bg-[#ffc891] top-0 left-0 right-0 bottom-0 z-[-2]"></div>
             </section>
 
             <section id="choose-us" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
@@ -106,7 +104,7 @@ export default function Home() {
 
             </section>
 
-            <footer className={`bg-[${salmonColor}] text-secondary-content`}>
+            <footer className="bg-[#ffc891] text-secondary-content">
                 <div className="md:flex text-center md:text-left justify-between px-10 items-center pt-10">
                     <div>
                         <h1 className="text-4xl font-bold">Muth Farm Flowers</h1>
