@@ -40,7 +40,7 @@ export default function Home() {
             </section>
 
             <section id="quote" className="w-full text-secondary-content text-center relative">
-                <h1 className={`${dancingScript.className} text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-10 md:py-28`}>Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
+                <h1 className={`${dancingScript.className} text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl py-20 md:py-28`}>Our <span className="font-black">long lasting</span> cut flowers are a <span className="italic">pleasure</span> to work with!</h1>
                 <div className="absolute bg-secondary top-0 left-0 right-0 bottom-0 z-[-2]"></div>
             </section>
 
