@@ -31,12 +31,12 @@ const About = () => {
                 </div>
 
                 <div className="xl:px-10">
-                    <img src="about.png" alt="" className="h-full w-auto rounded-2xl" />
+                    <img src="about000.jpg" alt="" className="h-auto w-full border-white border-solid border-[10px] rounded-2xl my-10" />
                 </div>
 
             </section>
 
-            <section id="commitment" className="mt-10 text-center flex flex-col xl:flex-row-reverse xl:items-center mx-10 mb-10">
+            <section id="commitment" className="mt-10 text-center flex flex-col xl:flex-row-reverse xl:items-center mx-5 mb-10">
 
                 <div className="xl:text-left xl:mx-[10vw] mb-10">
                     <h1 className="text-5xl font-black mb-10">Our Commitment</h1>
