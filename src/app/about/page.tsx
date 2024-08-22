@@ -18,13 +18,13 @@ const About = () => {
 
                     <h1 className="text-5xl font-black mb-10">About Muth Farm Flowers</h1>
 
-                    <p className="text-2xl my-10">Established in 2008, following decades of growing up on a family farm and growing garden and cut flowers, our product is grown organically, using sustainable methods without chemical fertilizers or pesticides.</p>
+                    <p className="text-2xl my-10">{"Established in 2008, following decades of growing up on a family farm and growing garden and cut flowers, our product is grown organically, using sustainable methods without chemical fertilizers or pesticides."}</p>
 
-                    <p className="text-2xl my-10">Some of the sustainable practices routinely used include a yearly addition of well composted leaves and cover-cropping to improve soil tilth and fertility, and the use of drip irrigation to conserve water. Classic old fashioned favorite cut flowers as well as novel and unusual flowers are grown. Of special interest are flowers and herbs that encourage beneficial insects or provide nectar sources for pollinators, such as dill and butterfly weed.</p>
+                    <p className="text-2xl my-10">{"Some of the sustainable practices routinely used include a yearly addition of well composted leaves and cover-cropping to improve soil tilth and fertility, and the use of drip irrigation to conserve water. Classic old fashioned favorite cut flowers as well as novel and unusual flowers are grown. Of special interest are flowers and herbs that encourage beneficial insects or provide nectar sources for pollinators, such as dill and butterfly weed."}</p>
 
-                    <p className="text-2xl my-10">You will never find bizarre dyed colors or glitter on our bouquets or arrangements. What you will find is nature's abundance of color nuances, textures and fragrances, picked at their peak for your optimal enjoyment. We strive to have an ever changing seasonal palette that will delight your senses. We also believe flowers should be an affordable luxury and provide excellent value for your money. Therefore, we grow flowers that have a long vase life, generally 5 to 7 days. With proper care, some can last 2 weeks or longer. Our flowers vase lives' are not lost in shipping or sitting in a warehouse.</p>
+                    <p className="text-2xl my-10">{"You will never find bizarre dyed colors or glitter on our bouquets or arrangements. What you will find is nature's abundance of color nuances, textures and fragrances, picked at their peak for your optimal enjoyment. We strive to have an ever changing seasonal palette that will delight your senses. We also believe flowers should be an affordable luxury and provide excellent value for your money. Therefore, we grow flowers that have a long vase life, generally 5 to 7 days. With proper care, some can last 2 weeks or longer. Our flowers vase lives' are not lost in shipping or sitting in a warehouse."}</p>
 
-                    <p className="text-2xl my-10">Many flowers, such as dahlias, lisianthus and zinnias are easily bruised and don't ship well. Others lose their fragrance. Because our market base is local and we don't ship our flowers, we have the advantage of growing a large selection of blooms that are not seen in a typical store or florist shop. Our flowers are picked at the optimal time, carefully conditioned and minimally handled.</p>
+                    <p className="text-2xl my-10">{"Many flowers, such as dahlias, lisianthus and zinnias are easily bruised and don't ship well. Others lose their fragrance. Because our market base is local and we don't ship our flowers, we have the advantage of growing a large selection of blooms that are not seen in a typical store or florist shop. Our flowers are picked at the optimal time, carefully conditioned and minimally handled."}</p>
 
                     <Link href="#"><button className="btn">See Plant List</button></Link>
 
@@ -41,7 +41,7 @@ const About = () => {
                 <div className="xl:text-left xl:mx-[10vw] mb-10">
                     <h1 className="text-5xl font-black mb-10">Our Commitment</h1>
 
-                    <p className="text-2xl my-10">When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow...and we couldn't imagine doing it any other way.</p>
+                    <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow...and we couldn't imagine doing it any other way."}</p>
 
                     <Link href="#"><button className="btn">Contact Us</button></Link>
                 </div>
