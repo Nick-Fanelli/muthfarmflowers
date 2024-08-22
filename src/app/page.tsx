@@ -22,13 +22,13 @@ export default function Home() {
                 <div className="absolute inset-0 w-full h-full z-[-10] bg-cover" style={{backgroundImage: "url('heading.jpg')"}} />
             </section>
 
-            <section id="welcome" className="md:flex w-full gap-5 px-10 md:px-32 py-32 relative">
+            <section id="welcome" className="md:flex w-full gap-5 px-10 md:pl-32 md:pr-0 py-32 relative xl:pl-64">
 
                 <img src="tlborder.png" alt="Flowers" className="absolute top-[-75px] left-[-75px] z-[-1]" />
 
-                <div className="w-full flex items-center text-center md:text-left">
+                <div className="w-full flex items-center text-center md:text-left mt-20">
                     <div className="mb-10 md:mb-0">
-                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold">Welcome to Muth Farm Flowers</h1>
+                        <h1 className="text-5xl leading-[100%] font-bold">Welcome to Muth Farm Flowers</h1>
                         <p className="text-2xl mt-10">Sustainably grown, fresh cut flowers for you or your special event or business. Proudly grown in Southern New Jersey, bouquets available at local Farmers Markets.</p>
                         <Link href="/about"><button className="btn mt-10">Learn More</button></Link>
                     </div>
