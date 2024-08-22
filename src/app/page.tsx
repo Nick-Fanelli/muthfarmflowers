@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "./(components)/Footer";
 import Navbar from "./(components)/Navbar";
 
@@ -29,12 +30,12 @@ export default function Home() {
                     <div className="mb-10 md:mb-0">
                         <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold">Welcome to Muth Farm Flowers</h1>
                         <p className="text-2xl mt-10">Sustainably grown, fresh cut flowers for you or your special event or business. Proudly grown in Southern New Jersey, bouquets available at local Farmers Markets.</p>
-                        <button className="btn mt-10">Learn More</button>
+                        <Link href="/about"><button className="btn mt-10">Learn More</button></Link>
                     </div>
                 </div>
 
                 <div className="w-full flex justify-center items-center">
-                    <img src="flower001.jpeg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto rounded-2xl border-solid border-[7px] border-base-300" />
+                    <img src="flower001.jpeg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-white rounded-2xl" />
                 </div>
 
             </section>
@@ -49,7 +50,7 @@ export default function Home() {
                 <img src="trborder.png" alt="Flowers" className="absolute top-[-75px] right-[-75px] z-[-1]" />
 
                 <div className="w-full flex justify-center items-center mb-10 md:mb-0">
-                    <img src="flower002.jpg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto rounded-2xl border-solid border-[7px] border-base-300" />
+                    <img src="flower002.jpg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-white rounded-2xl" />
                 </div>
 
                 <div className="w-full flex items-center text-center md:text-left">

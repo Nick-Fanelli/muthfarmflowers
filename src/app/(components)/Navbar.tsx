@@ -1,4 +1,14 @@
-const Navbar = () => {
+import Link from "next/link";
+
+type Props = {
+
+    selectedElementIndex?: number
+
+}
+
+const selectedStyles = "bg-base-200 font-bold";
+
+const Navbar = (props: Props) => {
 
     return (
         <div className="navbar bg-base-100 h-[2rem]">
@@ -21,20 +31,20 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>About Us</a></li>
-                        <li><a>Plant List</a></li>
-                        <li><a>Photo Gallery</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
+                        <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
+                        <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
+                        <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="#">Contact Us</Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Muth Farm Flowers</a>
+                <Link className="btn btn-ghost text-xl" href="/">Muth Farm Flowers</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>About Us</a></li>
-                    <li><a>Plant List</a></li>
-                    <li><a>Photo Gallery</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
+                    <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
+                    <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
+                    <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="#">Contact Us</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
