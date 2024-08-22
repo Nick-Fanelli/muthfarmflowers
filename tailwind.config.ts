@@ -23,7 +23,7 @@ const config: Config = {
       {
         default: {
           "primary": "#006fff",
-          "secondary": "#fce579",
+          "secondary": "#ffc891",
           "secondary-content": "#002e00",
           "accent": "#a20000",
           "neutral": "#0d0d0d",
