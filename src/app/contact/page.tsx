@@ -19,7 +19,7 @@ const Contact = () => {
             <h1 className="text-5xl font-black text-center mt-8">Contact Us</h1>
 
             <section id="owner-info" className="w-screen mt-12 mb-16">
-                <div className="card lg:card-side bg-secondary shadow-xl mx-1 lg:mx-10">
+                <div className="card lg:card-side bg-secondary shadow-xl mx-5 lg:mx-10">
                     <figure className="w-full lg:w-5/12">
                         <img src="maryellenmuth.jpg" alt="Mary Ellen Muth" className="w-full h-auto" />
                     </figure>
@@ -64,10 +64,10 @@ const Contact = () => {
 
             <h1 className="text-5xl font-black text-center mt-16 mb-14">Our Associations</h1>
 
-            <section id="organizations" className="grid grid-cols-1 md:grid-cols-2 pb-16">
+            <section id="organizations" className="grid grid-cols-1 md:grid-cols-2 pb-16 max-w-screen w-screen px-5">
 
                 <div className="flex justify-center">
-                    <div className="card card-compact bg-base-content text-base-100 min-w-96 w-6/12 shadow-xl">
+                    <div className="card card-compact bg-base-content text-base-100 w-full lg:min-w-96 lg:w-6/12 shadow-xl">
                         <figure className="h-52 lg:h-1/2">
                             <img src="muthfamilyfarm.jpg" alt="" />
                         </figure>
@@ -80,7 +80,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center mt-16 mx-5 md:mx-0 md:mt-0">
-                    <div className="card card-compact bg-base-content text-base-100 min-w-96 w-6/12 shadow-xl">
+                    <div className="card card-compact bg-base-content text-base-100 w-full lg:min-w-96 lg:w-6/12 shadow-xl">
                         <figure className="bg-base-200 h-52 lg:h-1/2 flex items-center justify-center">
                             <img src="ascfg-logo.png" alt="" />
                         </figure>
