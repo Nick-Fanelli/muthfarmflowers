@@ -55,7 +55,7 @@ export default function Home() {
 
                 <div className="w-full flex items-center text-center md:text-left">
                     <div className="">
-                        <h1 className="text-[8vw] md:text-[6vw] xl:text-[3vw] leading-[100%] font-bold mb-10">What We Offer</h1>
+                        <h1 className="text-5xl leading-[100%] font-bold mb-10">What We Offer</h1>
 
                         <ul className="list-disc ml-10 text-2xl mb-5 leading-10 text-left">
                             <li>Flower Bouquets and Arrangements</li>
@@ -63,7 +63,7 @@ export default function Home() {
                             <li>Wholesale</li>
                         </ul>
 
-                        <button className="btn mt-10">Contact Us</button>
+                        <Link className="btn mt-10" href="/contact">Contact Us</Link>
                     </div>
                 </div>
 

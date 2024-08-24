@@ -43,7 +43,7 @@ const About = () => {
 
                     <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow...and we couldn't imagine doing it any other way."}</p>
 
-                    <Link href="#"><button className="btn">Contact Us</button></Link>
+                    <Link href="/contact"><button className="btn">Contact Us</button></Link>
                 </div>
 
                 <img src="about001.jpg" alt="" className="max-h-[80vh] border-solid border-[10px] border-white rounded-2xl" />

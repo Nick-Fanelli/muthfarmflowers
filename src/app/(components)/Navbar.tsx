@@ -34,7 +34,7 @@ const Navbar = (props: Props) => {
                         <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
                         <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
                         <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
-                        <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="#">Contact Us</Link></li>
+                        <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
                 <Link className="btn btn-ghost text-xl" href="/">Muth Farm Flowers</Link>
@@ -44,7 +44,7 @@ const Navbar = (props: Props) => {
                     <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
                     <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
                     <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
-                    <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="#">Contact Us</Link></li>
+                    <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="/contact">Contact Us</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">

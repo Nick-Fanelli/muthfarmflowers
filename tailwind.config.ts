@@ -28,6 +28,8 @@ const config: Config = {
           "accent": "#a20000",
           "neutral": "#0d0d0d",
           "base-100": "#fffae4",
+          "base-200": "#faf3d7",
+          "base-300": "#f7edc3",
           "base-content": "#002e00",
           "info": "#007dff",
           "success": "#99f05c",
