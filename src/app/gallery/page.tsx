@@ -9,16 +9,46 @@ export const metadata: Metadata = {
     title: "Gallery | Muth Farm Flowers"
 };
 
+type Image = {
+    name: string
+    filepath: string
+}
+
 const Gallery = () => {
 
-    const files = fs.readdirSync(path.join('public', 'gallery'));
+    const imageFilepaths = fs.readdirSync(path.join('public', 'gallery')).filter(filepath => !filepath.startsWith('_'));
+    const images: Image[] = [];
+
+    imageFilepaths.forEach(filepath => {
+        let name = filepath.split('.')[0];
+        name = name.replaceAll('_', ' ');
+
+        if(name.startsWith('~'))
+            name = "";
+
+        images.push({ name, filepath });
+    });
 
     return (
 
         <>
             <Navbar selectedElementIndex={2} />
 
-            <h1>{files}</h1>
+            <h1 className="text-5xl font-black text-center mt-8 mb-10 gap-3">Image Gallery</h1>
+
+            <section id="gallery" className="leading-none columns-3 px-3">
+
+                {
+                    images.map(image => (
+                        <div className="group/parent relative !overflow-hidden rounded-xl mb-3" key={image.filepath}>
+                            <img src={`/gallery/${image.filepath}`} alt="" className="w-full h-full cursor-pointer transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-50" />
+                            <p className="absolute top-1/2 left-1/2 text-white text-4xl -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/parent:opacity-100 transition-opacity ease-in-out duration-150">{image.name}</p>
+                        </div>
+                    ))
+                }
+
+            </section>
+
 
             <Footer />
         </>
