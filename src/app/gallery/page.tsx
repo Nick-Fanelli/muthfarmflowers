@@ -16,7 +16,7 @@ type Image = {
 
 const Gallery = () => {
 
-    const imageFilepaths = fs.readdirSync(path.join('public', 'gallery')).filter(filepath => !filepath.startsWith('_'));
+    const imageFilepaths = fs.readdirSync(path.join('public', 'gallery')).filter(filepath => !filepath.startsWith('_') && filepath !== "README.md");
     const images: Image[] = [];
 
     imageFilepaths.forEach(filepath => {
