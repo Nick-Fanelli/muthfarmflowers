@@ -36,7 +36,7 @@ const Gallery = () => {
 
             <h1 className="text-5xl font-black text-center mt-8 mb-10 gap-3">Image Gallery</h1>
 
-            <section id="gallery" className="leading-none columns-1 sm:columns-2 xl:columns-3 2xl:columns-4 px-3">
+            <section id="gallery" className="leading-none columns-1 sm:columns-2 xl:columns-3 2xl:columns-4 px-3 mb-5">
 
                 {
                     images.map(image => (
