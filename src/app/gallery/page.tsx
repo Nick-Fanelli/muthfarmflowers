@@ -41,7 +41,7 @@ const Gallery = () => {
                 {
                     images.map(image => (
                         <div className="group/parent relative !overflow-hidden rounded-xl mb-3" key={image.filepath}>
-                            <img src={`/gallery/${image.filepath}`} alt="" className="w-full h-full cursor-pointer transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-50" />
+                            <img src={`gallery/${image.filepath}`} alt="" className="w-full h-full cursor-pointer transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-50" />
                             <p className="absolute top-1/2 left-1/2 text-white text-4xl -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/parent:opacity-100 transition-opacity ease-in-out duration-150">{image.name}</p>
                         </div>
                     ))
