@@ -33,7 +33,8 @@ const Gallery = (props: Props) => {
                 </form>
 
                 <div className="absolute inset-0 w-screen h-screen flex justify-center items-center pointer-events-none outline-none">
-                    <img src={`gallery/${context.value}`} alt="" className="block rounded-2xl shadow-2xl pointer-events-none z-9 select-none max-w-[98vw] max-h-[98vh] outline-none" />
+                    <img src={`gallery/${context.value?.filepath}`} alt="" className="block rounded-2xl shadow-2xl pointer-events-none z-9 select-none max-w-[98vw] max-h-[98vh] outline-none" />
+                    <h1 className="text-2xl lg:text-4xl absolute bottom-10 text-white shadow-3xl font-black">{context.value?.name}</h1>
                 </div>
             </dialog>
 
@@ -47,7 +48,7 @@ const Gallery = (props: Props) => {
                     {
                         props.images.map(image => (
                             <div key={image.filepath} onClick={() => {
-                                context.setValue(image.filepath);
+                                context.setValue({ name: image.name, filepath: image.filepath });
                                 (document.getElementById("selected-image") as HTMLDialogElement)?.showModal();
                             }}>
 
