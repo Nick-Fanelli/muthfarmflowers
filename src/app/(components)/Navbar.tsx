@@ -33,7 +33,7 @@ const Navbar = (props: Props) => {
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
                         <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
-                        <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
+                        <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="/gallery">Photo Gallery</Link></li>
                         <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@ const Navbar = (props: Props) => {
                 <ul className="menu menu-horizontal px-1">
                     <li><Link className={`${props.selectedElementIndex == 0 ? selectedStyles : null}`} href="/about">About Us</Link></li>
                     <li><Link className={`${props.selectedElementIndex == 1 ? selectedStyles : null}`} href="#">Plant List</Link></li>
-                    <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="#">Photo Gallery</Link></li>
+                    <li><Link className={`${props.selectedElementIndex == 2 ? selectedStyles : null}`} href="/gallery">Photo Gallery</Link></li>
                     <li><Link className={`${props.selectedElementIndex == 3 ? selectedStyles : null}`} href="/contact">Contact Us</Link></li>
                 </ul>
             </div>
