@@ -1,4 +1,4 @@
-# Hey There!!! 👋
+# Hey There!!!
 
 This **README** document along with the documents listed below were created by *Nick Fanelli* to help guide you through the assets and files that make up your website:
 
