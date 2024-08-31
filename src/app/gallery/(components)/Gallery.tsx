@@ -34,7 +34,7 @@ const Gallery = (props: Props) => {
 
                 <div className="absolute inset-0 w-screen h-screen flex justify-center items-center pointer-events-none outline-none">
                     <img src={`gallery/${context.value?.filepath}`} alt="" className="block rounded-2xl shadow-2xl pointer-events-none z-9 select-none max-w-[98vw] max-h-[98vh] outline-none" />
-                    <h1 className="text-2xl lg:text-4xl absolute bottom-10 text-white shadow-3xl font-black">{context.value?.name}</h1>
+                    <h1 className="text-2xl lg:text-4xl absolute bottom-10 text-white shadow-3xl">{context.value?.name}</h1>
                 </div>
             </dialog>
 
@@ -54,7 +54,7 @@ const Gallery = (props: Props) => {
 
                                 <div className="group/parent relative !overflow-hidden rounded-xl mb-3">
                                     <img src={`gallery/${image.filepath}`} alt="" className="w-full h-full cursor-pointer transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-50" />
-                                    <p className="absolute top-1/2 left-1/2 text-white text-xl lg:text-4xl -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover/parent:opacity-100 transition-opacity ease-in-out duration-150">{image.name}</p>
+                                    <p className="absolute bottom-0 left-1/2 w-full text-center text-white text-2xl lg:text-4xl -translate-x-1/2 -translate-y-1/2 group-hover/parent:opacity-100 transition-opacity ease-in-out duration-150">{image.name}</p>
                                 </div>
                             </div>
                         ))
