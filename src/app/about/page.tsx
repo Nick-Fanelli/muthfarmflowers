@@ -26,7 +26,7 @@ const About = () => {
 
                     <p className="text-2xl my-10">{"Many flowers, such as dahlias, lisianthus, and zinnias are easily bruised and don't ship well. Others lose their fragrance. Because our market base is local and we don't ship our flowers, we have the advantage of growing a large selection of blooms that are not seen in a typical store or florist shop. Our flowers are picked at the optimal time, carefully conditioned and minimally handled."}</p>
 
-                    <Link href="#"><button className="btn">See Plant List</button></Link>
+                    <Link href="/plants"><button className="btn">See Plant List</button></Link>
 
                 </div>
 
