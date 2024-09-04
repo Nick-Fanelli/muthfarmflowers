@@ -102,9 +102,9 @@ const Contact = () => {
 
             <section id="vase-life" className="my-20 lg:my-28 text-left">
 
-                <h1 className="text-5xl font-black text-center lg:text-left lg:pl-8">For Optimal Vase Life of Fresh Cut Flowers</h1>
+                <h1 className="text-5xl font-black text-center lg:text-left lg:pl-16">For Optimal Vase Life of Fresh Cut Flowers</h1>
 
-                <ul className="list-disc text-3xl pl-10 mt-12 lg:pl-14">
+                <ul className="list-disc text-3xl pl-10 mt-12 lg:pl-24">
                     <li className="my-8">Always start with a <strong>super clean vase</strong>.</li>
                     <li className="my-8">Keep arrangement away from <strong>sun, heat, wind and ripening fruit</strong>.</li>
                     <li className="my-8">Use <strong>flower food</strong> as instructed on packet.</li>
@@ -115,7 +115,7 @@ const Contact = () => {
 
             </section>
 
-            <section id="aerial-view" className="grid grid-cols-1 lg:grid-cols-2 bg-secondary text-secondary-content items-center">
+            <section id="aerial-view" className="grid grid-cols-1 lg:grid-cols-2 bg-secondary text-secondary-content items-center pb-14 pt-5">
 
                 <div className="px-5 mb-0 mt-20 lg:mb-20 lg:px-0 lg:ml-20 text-center lg:text-left">
                     <h1 className="text-5xl font-black">A Little Piece of Our History</h1>
@@ -125,7 +125,7 @@ const Contact = () => {
 
                 <div className="flex flex-col mt-10 items-center">
                     <img src="aerial-view.jpg" alt="Aerial View" className="w-1/2 rounded-xl border-base-200 border-solid border-8" />
-                    <p className="text-center text-xl">Circa 1960</p>
+                    <p className="text-center text-xl mt-3 font-bold italic">Circa 1960</p>
                 </div>
 
             </section>
