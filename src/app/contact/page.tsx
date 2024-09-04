@@ -109,7 +109,7 @@ const Contact = () => {
                     <li className="my-8">Keep arrangement away from <strong>sun, heat, wind and ripening fruit</strong>.</li>
                     <li className="my-8">Use <strong>flower food</strong> as instructed on packet.</li>
                     <li className="my-8"><strong>Check the water level</strong>; top off as needed, especially the first few days.</li>
-                    <li className="my-8">If <strong>no flower food available</strong>, trim stems 1/4" and change water every few days. Add a few drops of household bleach to water to prevent decay.</li>
+                    <li className="my-8">If <strong>no flower food available</strong>, trim stems 1/4&quot; and change water every few days. Add a few drops of household bleach to water to prevent decay.</li>
                     <li className="my-8"><strong>NEVER</strong> allow leaves in the water.</li>
                 </ul>
 
