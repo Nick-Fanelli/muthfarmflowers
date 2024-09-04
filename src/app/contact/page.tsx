@@ -113,6 +113,27 @@ const Contact = () => {
                     <li className="my-8"><strong>NEVER</strong> allow leaves in the water.</li>
                 </ul>
 
+            </section>
+
+            <section id="aerial-view" className="grid grid-cols-1 lg:grid-cols-2 bg-secondary text-secondary-content items-center">
+
+                <div className="px-5 mb-0 mt-20 lg:mb-20 lg:px-0 lg:ml-20 text-center lg:text-left">
+                    <h1 className="text-5xl font-black">A Little Piece of Our History</h1>
+                    <p className="text-3xl mt-4 mb-8">Visitors Welcome by <strong>Appointment Only</strong></p>
+                    <Link href="/about"><button className="btn btn-neutral bg-secondary-content">Learn More</button></Link>
+                </div>
+
+                <div className="flex flex-col mt-10 items-center">
+                    <img src="aerial-view.jpg" alt="Aerial View" className="w-1/2 rounded-xl border-base-200 border-solid border-8" />
+                    <p className="text-center text-xl">Circa 1960</p>
+                </div>
+
+            </section>
+
+            <section id="facebook" className="my-24 text-center">
+
+                <h1 className="text-5xl font-black mb-10">{"Don't Forget to Check Us Out on Facebook"}</h1>
+                <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank"><button className="btn px-10 py-2">Check Out Our Facebook</button></Link>
 
             </section>
 

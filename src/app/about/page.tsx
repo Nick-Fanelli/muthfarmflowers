@@ -31,7 +31,7 @@ const About = () => {
                 </div>
 
                 <div className="xl:px-10">
-                    <img src="about000.jpg" alt="" className="h-auto w-full border-white border-solid border-[10px] rounded-2xl my-10" />
+                    <img src="about000.jpg" alt="" className="h-auto w-full border-base-200 border-solid border-[10px] rounded-2xl my-10" />
                 </div>
 
             </section>
@@ -46,44 +46,44 @@ const About = () => {
                     <Link href="/contact"><button className="btn">Contact Us</button></Link>
                 </div>
 
-                <img src="about001.jpg" alt="" className="max-h-[80vh] border-solid border-[10px] border-white rounded-2xl" />
+                <img src="about001.jpg" alt="" className="max-h-[80vh] border-solid border-[10px] border-base-200 rounded-2xl" />
 
             </section>
 
             {/* #1 Mobile */}
             <div className="grid grid-cols-2 px-5 xl:hidden mb-5 gap-3">
 
-                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
-                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
+                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
 
             </div>
 
             {/* #1 Desktop */}
             <div className="grid-cols-3 px-10 gap-10 hidden xl:grid mb-10">
 
-                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
-                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
-                <img src="about008.jpg" alt="Sign" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
+                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <img src="about008.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
 
             </div>
 
             {/* #2 Mobile */}
             <div className="grid grid-cols-2 px-5 xl:hidden mb-5 gap-3">
 
-                <img src="about008a.jpg" alt="Sign" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
-                <img src="about006.jpg" alt="Tractor" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
+                <img src="about008a.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <img src="about006.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
 
             </div>
 
             {/* #2 Desktop */}
             <div className="grid-cols-2 px-10 gap-10 hidden xl:grid mb-10">
-                <img src="about006.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
-                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
+                <img src="about006.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
             </div>
 
             {/* Mobile Only */}
             <div className="mx-5 mb-5 xl:hidden">
-                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-white border-solid border-[10px] rounded-2xl" />
+                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
             </div>
 
             <Footer />

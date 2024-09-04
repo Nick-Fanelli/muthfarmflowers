@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full flex justify-center items-center">
-                    <img src="flower001.jpeg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-white rounded-2xl" />
+                    <img src="flower001.jpeg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-base-200 rounded-2xl" />
                 </div>
 
             </section>
@@ -50,7 +50,7 @@ export default function Home() {
                 <img src="trborder.png" alt="Flowers" className="absolute top-[-75px] right-[-75px] z-[-1]" />
 
                 <div className="w-full flex justify-center items-center mb-10 md:mb-0">
-                    <img src="flower002.jpg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-white rounded-2xl" />
+                    <img src="flower002.jpg" alt="Image of flowers" className="w-[75%] lg:w-[50%] h-auto border-solid border-[10px] border-base-200 rounded-2xl" />
                 </div>
 
                 <div className="w-full flex items-center text-center md:text-left">
