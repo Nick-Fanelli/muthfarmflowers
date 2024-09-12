@@ -16,7 +16,7 @@ export type ImageDef = {
 
 const Page = () => {
 
-    const imageFilepaths = fs.readdirSync(path.join('public', 'gallery')).filter(filepath => !filepath.startsWith('_') && filepath !== "README.md");
+    const imageFilepaths = fs.readdirSync(path.join('public', 'gallery')).filter(filepath => (!filepath.startsWith('_') && !filepath.startsWith('.') && filepath !== "README.md"));
     const images: ImageDef[] = [];
 
     imageFilepaths.forEach(filepath => {
