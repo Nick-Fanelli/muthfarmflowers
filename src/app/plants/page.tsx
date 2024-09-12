@@ -82,10 +82,44 @@ const Plants = () => {
 
             <section id="pricing" className="my-10 mt-20">
 
-                <h1 className="text-5xl font-black text-center mb-10">Pricing</h1>
+                <h1 className="text-5xl font-black text-center mb-14">Pricing</h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 items-center mb-20">
-                    <div className="text-center px-20 mb-16 mt-8 lg:my-0">
+
+                    <div className="w-full flex justify-center min-h-[23rem] mb-10 lg:mb-0">
+                        <div className="card bg-secondary-content text-base-100 w-96 shadow-xl">
+                            <div className="card-body">
+                                <h2 className="font-black text-4xl mb-5 text-center">Bunch</h2>
+                                <div className="h-full flex justify-center items-center">
+                                    <p className="text-xl text-center">Single variety-generally <strong>$8-12 / bunch</strong>. <i>Stem count varies depending on flower.</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full flex justify-center min-h-[23rem] mb-10 lg:mb-0">
+                        <div className="card bg-secondary-content text-base-100 w-96 shadow-xl">
+                            <div className="card-body">
+                                <h2 className="font-black text-4xl mb-5 text-center">Farmers Market Bouquet</h2>
+                                <div className="h-full flex justify-center items-center">
+                                    <p className="text-xl text-center"><strong>Starting at $10.00</strong> <i>Custom extra.</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full flex justify-center min-h-[23rem]">
+                        <div className="card bg-secondary-content text-base-100 w-96 shadow-xl">
+                            <div className="card-body">
+                                <h2 className="font-black text-4xl mb-5 text-center">Bucket of Mix Flowers</h2>
+                                <div className="h-full flex justify-center items-center">
+                                    <p className="text-xl text-center"><strong>$75.00</strong> <i>Perfect for DIY brides and other events.</i> <span className={`${dancingScript.className} font-black text-3xl`}>{"What's in your bucket?"}</span> A custom color blend of focal and filler flowers for easy arranging. <strong>Approximately 80-100 stems.</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="text-center px-20 mb-16 mt-8 lg:my-0">
                         <h1 className="text-4xl font-black mb-4">Bunch</h1>
                         <p className="text-2xl">Single variety-generally <strong>$8-12 / bunch</strong>. <i>Stem count varies depending on flower.</i></p>
                     </div>
@@ -98,7 +132,7 @@ const Plants = () => {
                     <div className="text-center px-20">
                         <h1 className="text-4xl font-black mb-4">Bucket of Mix Flowers</h1>
                         <p className="text-2xl"><strong>$75.00</strong> <i>Perfect for DIY brides and other events.</i> <span className={`${dancingScript.className} font-black text-3xl`}>{"What's in your bucket?"}</span> A custom color blend of focal and filler flowers for easy arranging. <strong>Approximately 80-100 stems.</strong></p>
-                    </div>
+                    </div> */}
 
 
                 </div>
