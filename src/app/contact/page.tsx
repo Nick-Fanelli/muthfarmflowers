@@ -16,22 +16,6 @@ const Contact = () => {
 
             <Navbar selectedElementIndex={3} />
 
-            {/* 
-            <section id="owner-info" className="w-screen mt-12 mb-16">
-                <div className="card lg:card-side bg-secondary shadow-xl mx-5 lg:mx-10">
-                    <figure className="w-full lg:w-5/12">
-                        <img src="maryellenmuth.jpg" alt="Mary Ellen Muth" className="w-full h-auto" />
-                    </figure>
-                    <div className="card-body flex justify-center ml-[2vw] !px-0">
-                        <span className="text-center lg:text-left">
-                            <h1 className="font-black text-4xl sm:text-5xl lg:text-[5vw]">Mary Ellen Muth</h1>
-                            <p className="text-2xl sm:text-3xl lg:text-[2.25vw] mt-3 lg:mt-[2vw] lg:leading-[3vw] font-bold">Muth Farm Flowers</p>
-                            <p className="text-xl sm:text-2xl lg:text-[2vw]">Founder & Owner</p>
-                        </span>
-                    </div>
-                </div>
-            </section> */}
-
             <section id="contact-info" className="py-10 text-center mt-8 mb-16">
 
                 <h1 className="font-black text-7xl lg:text-8xl mb-4">Muth Farm Flowers</h1>
@@ -133,7 +117,7 @@ const Contact = () => {
             <section id="facebook" className="my-24 text-center">
 
                 <h1 className="text-5xl font-black mb-10">{"Don't Forget to Check Us Out on Facebook"}</h1>
-                <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank"><button className="btn px-10 py-2">Check Out Our Facebook</button></Link>
+                <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank"><button className="btn btn-primary text-white px-10 py-2">Check Out Our Facebook</button></Link>
 
             </section>
 
