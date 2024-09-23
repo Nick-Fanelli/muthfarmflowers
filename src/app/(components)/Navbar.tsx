@@ -52,9 +52,9 @@ const Navbar = (props: Props) => {
             </div>
             <div className="navbar-end">
                 {
-                    props.selectedElementIndex == null || props.selectedElementIndex == 3 ?
-                    <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank" className="h-full mr-3">
-                    <div className="flex bg-blue-600 py-2 px-4 rounded-xl">
+                    props.selectedElementIndex == 3 ?
+                    <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank" className="h-full xm:mr-3">
+                    <div className="flex bg-blue-600 py-2 px-2 sm:px-4 rounded-xl">
 
                         <svg fill="#fffffff" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 310 310" className="h-1/2 w-auto">
