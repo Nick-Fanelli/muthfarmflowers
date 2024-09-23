@@ -66,7 +66,7 @@ const Navbar = (props: Props) => {
             c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z" className="fill-white"/>
                             </g>
                         </svg>
-                        <p className="font-black ml-3 text-white">Facebook</p>
+                        <p className="hidden sm:block font-black ml-3 text-white">Facebook</p>
                     </div>
                 </Link>
                 : <></>
