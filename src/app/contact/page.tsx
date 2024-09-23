@@ -100,7 +100,7 @@ const Contact = () => {
 
             </section>
 
-            <section id="aerial-view" className="flex justify-center items-center bg-secondary text-secondary-content items-center pb-14 pt-5">
+            <section id="aerial-view" className="flex justify-center items-center bg-secondary text-secondary-content pb-14 pt-5">
 
                 <div className="flex flex-col mt-10 items-center w-full text-center">
                     <div className="w-full h-full flex justify-center text-center flex-col items-center">
