@@ -46,7 +46,7 @@ const About = () => {
             <section id="commitment" className="mt-10 text-center flex flex-col xl:flex-row-reverse xl:items-center mx-5 mb-10">
 
                 <div className="xl:text-left xl:mx-[10vw] mb-10">
-                    <h1 className="text-5xl font-black mb-10">Our Commitment</h1>
+                    <h1 className="text-4xl sm:text-5xl font-black mb-10">Our Commitment</h1>
 
                     <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow..."}<span className="italic">{"and we couldn't imagine doing it any other way."}</span></p>
 
@@ -59,7 +59,7 @@ const About = () => {
 
             <section id="image">
 
-                <div className="px-10 py-5">
+                <div className="px-5 md:px-10 py-5">
                     <img src="about100.jpg" alt="Flowers" className="border-solid border-[10px] border-base-200 rounded-2xl" />
                 </div>
 

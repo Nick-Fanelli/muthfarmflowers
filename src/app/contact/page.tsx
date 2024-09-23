@@ -104,17 +104,10 @@ const Contact = () => {
 
                 <div className="flex flex-col mt-10 items-center w-full text-center">
                     <div className="w-full h-full flex justify-center text-center flex-col items-center">
-                        <img src="aerial-view.jpg" alt="Aerial View" className="w-[30%] rounded-xl border-base-200 border-solid border-8" />
-                        <p className="text-center text-xl mt-3 font-bold italic">Arial View Muth Farm Circa 1960</p>
+                        <img src="aerial-view.jpg" alt="Aerial View" className="w-[95vw] md:w-[50%] lg:w-[30%] rounded-xl border-base-200 border-solid border-8" />
+                        <p className="text-center text-xl mt-3 font-bold italic">Ariel View Muth Farm Circa 1960</p>
                     </div>
                 </div>
-
-            </section>
-
-            <section id="facebook" className="my-24 text-center">
-
-                <h1 className="text-5xl font-black mb-10">{"Don't Forget to Check Us Out on Facebook"}</h1>
-                <Link href="https://www.facebook.com/profile.php?id=100064895851868" target="_blank"><button className="btn btn-primary text-white px-10 py-2">Check Out Our Facebook</button></Link>
 
             </section>
 
