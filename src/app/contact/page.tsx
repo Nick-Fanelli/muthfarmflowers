@@ -105,7 +105,7 @@ const Contact = () => {
                 <div className="flex flex-col mt-10 items-center w-full text-center">
                     <div className="w-full h-full flex justify-center text-center flex-col items-center">
                         <img src="aerial-view.jpg" alt="Aerial View" className="w-[95vw] md:w-[50%] lg:w-[30%] rounded-xl border-base-200 border-solid border-8" />
-                        <p className="text-center text-xl mt-3 font-bold italic">Ariel View Muth Farm Circa 1960</p>
+                        <p className="text-center text-xl mt-3 font-bold italic">Aerial View Muth Farm Circa 1960</p>
                     </div>
                 </div>
 
