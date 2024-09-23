@@ -48,7 +48,7 @@ const About = () => {
                 <div className="xl:text-left xl:mx-[10vw] mb-10">
                     <h1 className="text-5xl font-black mb-10">Our Commitment</h1>
 
-                    <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow..."}<span className="italic">and we couldn't imagine doing it any other way.</span></p>
+                    <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow..."}<span className="italic">{"and we couldn't imagine doing it any other way."}</span></p>
 
                     <Link href="/contact"><button className="btn">Contact Us</button></Link>
                 </div>
