@@ -47,6 +47,7 @@ const Contact = () => {
                         <a className="text-2xl font-bold mt-5 hover:link" href={"mailto:info@muthfarmflowers.com"}>info@muthfarmflowers.com</a>
                     </div>
                 </div>
+                <h1 className="text-center font-bold text-3xl mt-5">Visitors welcome by appointment only.</h1>
 
             </section>
 
@@ -99,17 +100,13 @@ const Contact = () => {
 
             </section>
 
-            <section id="aerial-view" className="grid grid-cols-1 lg:grid-cols-2 bg-secondary text-secondary-content items-center pb-14 pt-5">
+            <section id="aerial-view" className="flex justify-center items-center bg-secondary text-secondary-content items-center pb-14 pt-5">
 
-                <div className="px-5 mb-0 mt-20 lg:mb-20 lg:px-0 lg:ml-20 text-center lg:text-left">
-                    <h1 className="text-5xl font-black">A Little Piece of Our History</h1>
-                    <p className="text-3xl mt-4 mb-8">Visitors Welcome by <strong>Appointment Only</strong></p>
-                    <Link href="/about"><button className="btn btn-neutral bg-secondary-content">Learn More</button></Link>
-                </div>
-
-                <div className="flex flex-col mt-10 items-center">
-                    <img src="aerial-view.jpg" alt="Aerial View" className="w-1/2 rounded-xl border-base-200 border-solid border-8" />
-                    <p className="text-center text-xl mt-3 font-bold italic">Circa 1960</p>
+                <div className="flex flex-col mt-10 items-center w-full text-center">
+                    <div className="w-full h-full flex justify-center text-center flex-col items-center">
+                        <img src="aerial-view.jpg" alt="Aerial View" className="w-[30%] rounded-xl border-base-200 border-solid border-8" />
+                        <p className="text-center text-xl mt-3 font-bold italic">Arial View Muth Farm Circa 1960</p>
+                    </div>
                 </div>
 
             </section>

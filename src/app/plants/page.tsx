@@ -76,7 +76,7 @@ const Plants = () => {
             <section id="note" className="my-14 bg-secondary text-secondary-content py-14">
 
                 <h1 className="text-center text-5xl font-black mb-12 mt-4">Please Note</h1>
-                <p className="text-center text-2xl mx-5 lg:px-40 mb-6">This is by no means a complete list! Perennials such as butterfly weed, spirea, coneflower, phlox, Joe Pye and others are grown as well. In addition, we succession plant our most popular varieties to ensure a good supply throughout the growing season. We also utilize fragrant herbal fillers in our bouquets and arrangements such as mints, dill, scented basils, lavender and eucalyptus.</p>
+                <p className="text-center text-2xl mx-5 lg:px-40 mb-6">This is by no means a complete list! Perennials and flowering shrubs are grown as well. In addition, we succession plant our most popular varieties to ensure a good supply throughout the growing season. We also utilize fragrant herbal fillers in our bouquets and arrangements such as mints, dill, scented basils, lavender and eucalyptus.</p>
 
             </section>
 

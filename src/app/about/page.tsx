@@ -3,6 +3,12 @@ import Navbar from "../(components)/Navbar";
 import Footer from "../(components)/Footer";
 import Link from "next/link";
 
+import { Dancing_Script } from "next/font/google"
+
+const dancingScript = Dancing_Script({
+    subsets: ['latin'],
+});
+
 export const metadata: Metadata = {
     title: "About | Muth Farm Flowers"
 };
@@ -11,6 +17,7 @@ const About = () => {
 
     return (
         <>
+        
             <Navbar selectedElementIndex={0} />
 
             <section id="our-story" className="text-center px-5 mb-10 xl:grid xl:text-left xl:items-center xl:py-10 w-screen" style={{ gridTemplateColumns: "60% 40%" }}>
@@ -41,7 +48,7 @@ const About = () => {
                 <div className="xl:text-left xl:mx-[10vw] mb-10">
                     <h1 className="text-5xl font-black mb-10">Our Commitment</h1>
 
-                    <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow...and we couldn't imagine doing it any other way."}</p>
+                    <p className="text-2xl my-10">{"When a flower is grown correctly from seed to bloom, picked at its peak, and handled properly post harvest, there is an unmistakable clarity of color and texture. We assure you, when you purchase flowers from Muth Farm Flowers, you are supporting our proud agricultural heritage and receiving a superior product as well. We love what we grow and how we grow..."}<span className="italic">and we couldn't imagine doing it any other way.</span></p>
 
                     <Link href="/contact"><button className="btn">Contact Us</button></Link>
                 </div>
@@ -50,41 +57,13 @@ const About = () => {
 
             </section>
 
-            {/* #1 Mobile */}
-            <div className="grid grid-cols-2 px-5 xl:hidden mb-5 gap-3">
+            <section id="image">
 
-                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
+                <div className="px-10 py-5">
+                    <img src="about100.jpg" alt="Flowers" className="border-solid border-[10px] border-base-200 rounded-2xl" />
+                </div>
 
-            </div>
-
-            {/* #1 Desktop */}
-            <div className="grid-cols-3 px-10 gap-10 hidden xl:grid mb-10">
-
-                <img src="about002.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-                <img src="about004.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-                <img src="about008.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-
-            </div>
-
-            {/* #2 Mobile */}
-            <div className="grid grid-cols-2 px-5 xl:hidden mb-5 gap-3">
-
-                <img src="about008a.jpg" alt="Sign" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-                <img src="about006.jpg" alt="Tractor" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-
-            </div>
-
-            {/* #2 Desktop */}
-            <div className="grid-cols-2 px-10 gap-10 hidden xl:grid mb-10">
-                <img src="about006.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-            </div>
-
-            {/* Mobile Only */}
-            <div className="mx-5 mb-5 xl:hidden">
-                <img src="about005.jpg" alt="Picture of Ground Being Prepped for Flowers" className="object-contain w-full h-full border-base-200 border-solid border-[10px] rounded-2xl" />
-            </div>
+            </section>
 
             <Footer />
 
