@@ -14,7 +14,7 @@ const Footer = () => {
                     <a className="text-xl font-black hover:link" href="mailto:info@muthfarmflowers.com">info@muthfarmflowers.com</a>
                 </div>
             </div>
-            <p className="text-center pb-1 text-xl mt-5 md:mt-0">Copyright © 2024 Muth Farm Flowers</p>
+            <p className="text-center pb-1 text-xl mt-5 md:mt-0">Copyright © 2025 Muth Farm Flowers</p>
         </footer>
     )
 
